@@ -1,4 +1,3 @@
-
 const scan = new Command("scan");
 scan.addArgument(new Argument("<source>"));
 scan.description("Scan a folder/file");

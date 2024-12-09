@@ -31,5 +31,6 @@ jobs:
         uses: scanoss/actions-scan@feat/groh/integrate-scanoss-json
         with:
           policies: copyleft, undeclared
+          licenses.copyleft.explicit: MIT
           dependencies.enabled: true
           settingsFilepath: settings.json

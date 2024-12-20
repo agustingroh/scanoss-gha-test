@@ -28,9 +28,10 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@feat/groh/integrate-scanoss-json
+        uses: scanoss/actions-scan@v1
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
           licenses.copyleft.include: MIT
           dependencies.scope.include: devDependencies
+          scanossSettings: false

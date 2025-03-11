@@ -34,5 +34,5 @@ jobs:
           dependencies.enabled: true
           licenses.copyleft.include: MIT
           dependencies.scope.include: devDependencies
-          apiUrl: 'https://api.scanoss.com/scan7direct'
-          apikey: 'fD4P8wbfWS9XHvsrzcDrB0zu'
+          api.url: 'https://api.scanoss.com/scan7direct'
+          api.key: 'fD4P8wbfWS9XHvsrzcDrB0zu'

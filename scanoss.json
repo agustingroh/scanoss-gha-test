@@ -1,0 +1,9 @@
+{
+  "bom": {
+    "include": [
+      {
+        "purl": "pkg:github/scanoss/scanoss.js"
+      }
+    ]
+  }
+}

@@ -28,9 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/groh/bug-on-api-key
+        uses: scanoss/actions-scan@chore/downgrade-artifacts-dependencies
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
-          licenses.copyleft.include: MIT
-          dependencies.scope.include: devDependencies
+

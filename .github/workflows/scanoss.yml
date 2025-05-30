@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@chore/downgrade-artifacts-dependencies
+        uses: scanoss/actions-scan@chore/v0.3.0
         with:
           policies: copyleft, undeclared
 

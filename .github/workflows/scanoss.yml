@@ -28,9 +28,8 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/groh/bug-on-api-key
+        uses: scanoss/actions-scan@v0.3.3
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
-          licenses.copyleft.include: MIT
-          dependencies.scope.include: devDependencies
+          licenses.copyleft.include: MIT,Apache-2.0,BSD-3-Clause,ISC,Python-2.0,CC0-1.0,0BSD

@@ -28,9 +28,10 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/groh/bug-on-api-key
+        uses: scanoss/actions-scan@chore/upgrade-scanoss-py-version-to-latest
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
           licenses.copyleft.include: MIT
           dependencies.scope.include: devDependencies
+          debug: true

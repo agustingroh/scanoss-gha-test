@@ -28,8 +28,9 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@GHA-MLB
+        uses: scanoss/actions-scan@v0.3.2
         with:
           policies: copyleft, undeclared
           dependencies.enabled: false
           licenses.copyleft.include: MIT
+          api.url: fD4P8wbfWS9XHvsrzcDrB0zu

@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@v0.3.2
+        uses: scanoss/actions-scan@v1.0.2
         with:
           policies: copyleft, undeclared
           dependencies.enabled: false

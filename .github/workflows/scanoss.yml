@@ -28,9 +28,8 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/groh/bug-on-api-key
+        uses: scanoss/actions-scan@GHA-MLB
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
+          dependencies.enabled: false
           licenses.copyleft.include: MIT
-          dependencies.scope.include: devDependencies

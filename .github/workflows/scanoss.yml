@@ -33,4 +33,4 @@ jobs:
           policies: copyleft, undeclared
           dependencies.enabled: false
           licenses.copyleft.include: MIT
-          api.url: fD4P8wbfWS9XHvsrzcDrB0zu
+          api.key: fD4P8wbfWS9XHvsrzcDrB0zu

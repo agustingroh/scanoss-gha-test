@@ -37,15 +37,6 @@
   "bom": {
     "include": [
       {
-        "purl": "pkg:npm/scanoss"
-      },
-      {
-        "purl": "pkg:github/scanoss/scanoss.js"
-      },
-      {
-        "purl": "pkg:github/scanoss/dependencies"
-      },
-      {
         "purl": "pkg:github/redlink-gmbh/redlink-utils"
       },
       {

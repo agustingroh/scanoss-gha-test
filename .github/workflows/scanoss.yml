@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@update-MLB-GHA
+        uses: scanoss/actions-scan@v0.3.4
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true

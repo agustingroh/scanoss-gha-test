@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@v1.0.3
+        uses: scanoss/actions-scan@vchore/update-runtime-container-to-1.25.2
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true

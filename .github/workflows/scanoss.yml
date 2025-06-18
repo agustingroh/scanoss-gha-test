@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/prevent-error-with-empty-licenses
+        uses: scanoss/actions-scan@bug/Fixes-license-summary
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true

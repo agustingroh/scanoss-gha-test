@@ -28,9 +28,8 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/Fixes-license-summary
+        uses: scanoss/actions-scan@bug/chore/Replace-summary-input-source
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
-          licenses.copyleft.include: MIT
           api.key: fD4P8wbfWS9XHvsrzcDrB0zu

@@ -1,8 +1,10 @@
 {
   "bom": {
     "include": [
-      "path": "json.h",
-      "purl" "pkg:github/scanoss/scanner.c"
+      {
+        "path": "json.h",
+        "purl": "pkg:github/scanoss/scanner.c"
+      }
     ]
   }
 }

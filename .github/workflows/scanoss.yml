@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/chore/Replace-summary-input-source
+        uses: scanoss/actions-scan@chore/Replace-summary-input-source
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true

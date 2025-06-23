@@ -31,5 +31,5 @@ jobs:
         uses: scanoss/actions-scan@chore/Replace-summary-input-source
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
+          dependencies.enabled: false
           api.key: fD4P8wbfWS9XHvsrzcDrB0zu

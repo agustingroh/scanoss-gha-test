@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@chore/replaces-summary-input-source-GHA-MLB
+        uses: scanoss/actions-scan@v0.3.8
         with:
           policies: copyleft, undeclared
           dependencies.enabled: false

@@ -35,4 +35,4 @@ jobs:
           dependencytrack.enabled: true
           dependencytrack.url: 'https://testurl.com'
           dependencytrack.apikey: '243243'
-          dependencytrack.projectname: 'test-project'
+          dependencytrack.projectversion: '1.2.4'

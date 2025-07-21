@@ -31,7 +31,6 @@ jobs:
         uses: scanoss/actions-scan@feat/dependency-track-test
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
           dependencytrack.enabled: true
           dependencytrack.apikey: '243243'
           dependencytrack.projectversion: '1.2.4'

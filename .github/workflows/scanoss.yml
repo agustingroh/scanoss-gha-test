@@ -28,7 +28,11 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/GHA-MLB-bug-runtime-container
+        uses: scanoss/actions-scan@feat/dependency-track-test
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
+          dependencytrack.enabled: true
+          dependencytrack.url: 'https://testurl.com'
+          dependencytrack.apikey: '243243'
+          dependencytrack.projectid: '32dfsfe4rt'

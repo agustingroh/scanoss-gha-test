@@ -33,6 +33,5 @@ jobs:
           policies: copyleft, undeclared
           dependencies.enabled: true
           dependencytrack.enabled: true
-          dependencytrack.url: 'https://testurl.com'
           dependencytrack.apikey: '243243'
           dependencytrack.projectversion: '1.2.4'

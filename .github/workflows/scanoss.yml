@@ -31,3 +31,4 @@ jobs:
         uses: scanoss/actions-scan@feature/mdaloia/SP-2876-Add-support-for-exporting-CDX-files-into-DependencyTrack
         with:
           policies: copyleft, undeclared
+          dependencytrack.enabled: true

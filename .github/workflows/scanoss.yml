@@ -35,4 +35,3 @@ jobs:
           dependencytrack.enabled: true
           dependencytrack.url: 'https://testurl.com'
           dependencytrack.apikey: '243243'
-          dependencytrack.projectid: '32dfsfe4rt'

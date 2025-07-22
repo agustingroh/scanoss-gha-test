@@ -31,4 +31,9 @@ jobs:
         uses: scanoss/actions-scan@bug/GHA-MLB-bug-runtime-container
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
+          dependencytrack.enabled: true
+          dependencytrack.url: 'https://dependency-track.scanoss.xyz'
+          dependencytrack.projectid: '10cbf4a3-1e89-4ad2-ad50-ae05952bf528'
+          dependencytrack.projectname: 'Test Bom Upload'
+          dependencytrack.projectversion: '1.0.0'
+          dependencytrack.apikey: 'odt_w04Ka90F_9eePWolxKDcWKF5VzETjr03vtknj2Odp'

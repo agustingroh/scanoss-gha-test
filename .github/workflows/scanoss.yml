@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/actions-scan@bug/GHA-MLB-bug-runtime-container
+        uses: scanoss/actions-scan@feature/mdaloia/SP-2876-Add-support-for-exporting-CDX-files-into-DependencyTrack
         with:
           policies: copyleft, undeclared
           dependencytrack.enabled: true

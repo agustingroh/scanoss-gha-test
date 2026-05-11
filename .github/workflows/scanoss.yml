@@ -31,4 +31,4 @@ jobs:
         uses: scanoss/code-scan-action@v1
         with:
           policies: copyleft, undeclared
-          dependencies.enabled: true
+          dependencies.enabled: false

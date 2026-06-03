@@ -40,6 +40,8 @@ export class Scanner extends EventEmitter {
 
   private readonly DEFAULT_PREMIUM_URL = 'https://api.scanoss.com/scan/direct';
 
+
+  
   private scannerCfg: ScannerCfg;
 
   private workDirectory: string;

@@ -17,6 +17,8 @@ import {
 } from "./ScannerTypes";
 
 
+
+
 import { WfpProvider } from './WfpProvider/WfpProvider';
 import { FingerprintPackage } from './WfpProvider/FingerprintPackage';
 import { WfpCalculator } from './WfpProvider/WfpCalculator/WfpCalculator';

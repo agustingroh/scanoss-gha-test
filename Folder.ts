@@ -11,6 +11,12 @@ export default class Folder extends Node {
     this.children = [];
   }
 
+
+
+
+
+
+  
   public addChild(node: Node): void {
     this.children.push(node);
   }

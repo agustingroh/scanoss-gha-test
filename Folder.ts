@@ -17,6 +17,7 @@ export default class Folder extends Node {
 
   
 
+
   
   public addChild(node: Node): void {
     this.children.push(node);

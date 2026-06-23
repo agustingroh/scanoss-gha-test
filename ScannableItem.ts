@@ -26,6 +26,8 @@ export class ScannableItem {
   }
 
 
+
+
   
   public getContent() {
     return this.content;

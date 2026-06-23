@@ -25,6 +25,8 @@ export class ScannableItem {
     this.isBinary = isBinary;
   }
 
+
+  
   public getContent() {
     return this.content;
   }

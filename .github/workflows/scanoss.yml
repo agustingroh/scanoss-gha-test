@@ -11,10 +11,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
   pull-requests: write
   checks: write
   actions: read
+  contents: write                                                                                                                                             
 
 jobs:
   scanoss-analysis:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SCANOSS analysis
         id: scan
-        uses: scanoss/code-scan-action@v1
+        uses: scanoss/code-scan-action@feat/SP-4479-include-OSS-file-info-annotation
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true

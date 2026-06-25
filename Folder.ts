@@ -15,6 +15,10 @@ export default class Folder extends Node {
 
 
 
+  
+
+  
+
 
   
   public addChild(node: Node): void {

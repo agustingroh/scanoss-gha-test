@@ -8,6 +8,8 @@ import { ScannerEvents } from './ScannerTypes';
 import { FingerprintPackage } from './WfpProvider/FingerprintPackage';
 import { ScannerCfg } from './ScannerCfg';
 
+
+
 export class Fingerprint extends EventEmitter {
   private wfpCalculator: WfpProvider;
   private fingerprintPath: string;

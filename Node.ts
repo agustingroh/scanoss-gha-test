@@ -18,6 +18,9 @@ export default abstract class Node {
     this.isBinaryFile = false;
   }
 
+
+  
+
   public abstract getNode(path: string): Node;
 
   public abstract getFiles(f?: Filter): Array<string>;
